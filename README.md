@@ -14,3 +14,4 @@ pip install playsound
 ```
 
 Fork this repository and enjoy the project! Contribute if necessary!
+Rename your desired alarm sound to song.mp3 and place the file in the root folder of the .py code.
