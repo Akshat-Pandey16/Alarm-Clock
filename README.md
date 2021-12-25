@@ -1,19 +1,16 @@
 # Alarm-Clock
-An alarm clock is a reminder to start working on our dream by waking up from our dreams.
-#python code
-from datetime import datetime   
-from playsound import playsound
-import time
-inputtime = int(input("Enter the time of alarm to be set:HH:MM:SS\n"))
-now = datetime.now()
+Wake up from your dreams to start working on your dream with an alarm clock!
 
-justtime=int(now.strftime("%H%M"))
+# Made By : 
+## Paragee Sharma - E-32
+## Priyal Tiwari - E-36
 
-print("Setting up alarm..")
-while True:
-    justtime=int(now.strftime("%H%M"))
-    if(inputtime==justtime):
-        print("Wake Up!")
-        playsound('song.mp3')
-        time.sleep(2)
-        break
+## Setup Discription 
+### you need to install following libraries to run this python program in cmd
+```
+
+pip install playsound
+
+```
+
+Fork this repository and enjoy the project! Contribute if necessary!
